@@ -1,0 +1,23 @@
+Source: multiflexi-csas
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Homepage: https://github.com/VitexSoftware/multiflexi-csas
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/VitexSoftware/multiflexi-csas.git
+Vcs-Browser: https://github.com/VitexSoftware/multiflexi-csas
+
+Package: multiflexi-csas
+Architecture: all
+Depends:
+ ${misc:Depends},
+ multiflexi-cli,
+ csas-authorize
+Description: MultiFlexi credential prototype for Česká Spořitelna API
+ Provides a credential prototype plugin for MultiFlexi that manages
+ ČSAS (Česká Spořitelna / Erste) API credentials including token
+ management, API keys, and sandbox mode configuration.
+ .
+ Integrates with csas-authorize for automatic access token refresh.

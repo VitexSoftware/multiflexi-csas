@@ -1,0 +1,10 @@
+multiflexi-csas for Debian
+
+This package provides the Česká Spořitelna (ČSAS) credential prototype
+plugin for MultiFlexi. It allows MultiFlexi to manage ČSAS API credentials
+including automatic access token refresh via csas-authorize.
+
+After installation, the credential prototype is automatically registered
+with MultiFlexi via the postinst script.
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Mon, 23 Feb 2026 11:21:26 +0100

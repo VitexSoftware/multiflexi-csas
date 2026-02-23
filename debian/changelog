@@ -1,0 +1,6 @@
+multiflexi-csas (0.1.0) UNRELEASED; urgency=low
+
+  * Initial release
+  * ČSAS credential prototype separated from multiflexi-core
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Mon, 23 Feb 2026 11:21:26 +0100

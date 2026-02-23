@@ -1,0 +1,10 @@
+#!/bin/sh
+# If no user provided script is activated in this file, you should remove this file.
+set -e
+
+composer-global-update deb/multiflexi-core
+multiflexi crprototype sync
+
+#DEBHELPER#
+
+exit 0
