@@ -1,0 +1,11 @@
+includes:
+    - vendor/phpstan/phpstan/conf/bleedingEdge.neon
+
+parameters:
+    level: max
+    paths:
+        - src
+        - tests
+    ignoreErrors:
+        - '#Call to static method .* on an unknown class#'
+    checkMissingCallableSignature: false
