@@ -85,12 +85,12 @@ class Csas extends \MultiFlexi\CredentialProtoType implements \MultiFlexi\creden
     }
 
     #[\Override]
-    public static function name(): string
+    public function name(): string
     {
         return _('Česká Spořitelna a.s.');
     }
 
-    public static function description(): string
+    public function description(): string
     {
         return _('ČS a.s. / Erste');
     }
@@ -98,7 +98,7 @@ class Csas extends \MultiFlexi\CredentialProtoType implements \MultiFlexi\creden
     #[\Override]
     public static function uuid(): string
     {
-        return '6ba7b811-9dad-11d1-80b4-00c04fd430c8';
+        return '1eef27c8-b9d1-4582-911d-160bf0be9d95';
     }
 
     public function prepareConfigForm(): void
@@ -138,19 +138,7 @@ class Csas extends \MultiFlexi\CredentialProtoType implements \MultiFlexi\creden
     }
 
     #[\Override]
-    public function fieldsInternal(): \MultiFlexi\ConfigFields
-    {
-        return $this->configFieldsInternal;
-    }
-
-    #[\Override]
-    public function fieldsProvided(): \MultiFlexi\ConfigFields
-    {
-        return $this->configFieldsProvided;
-    }
-
-    #[\Override]
-    public static function logo(): string
+    public function logo(): string
     {
         return 'csas-authorize.svg';
     }

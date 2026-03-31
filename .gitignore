@@ -1,0 +1,6 @@
+vendor/
+debian/.debhelper/
+debian/multiflexi-csas/
+debian/multiflexi-csas.substvars
+debian/files
+debian/debhelper-build-stamp
