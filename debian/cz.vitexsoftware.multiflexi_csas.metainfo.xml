@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>cz.vitexsoftware.multiflexi_csas</id>
+  <icon type="stock">multiflexi-csas</icon>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  <name>MultiFlexi ČSAS</name>
+  <summary>MultiFlexi credential prototype for Česká Spořitelna API</summary>
+  <description>
+    <p>
+      Provides a credential prototype plugin for MultiFlexi that manages ČSAS (Česká Spořitelna / Erste) API credentials including token management, API keys, and sandbox mode configuration. Integrates with csas-authorize for automatic access token refresh.
+    </p>
+  </description>
+  <url type="homepage">https://github.com/VitexSoftware/multiflexi-csas</url>
+  <url type="bugtracker">https://github.com/VitexSoftware/multiflexi-csas/issues</url>
+  <developer id="cz.vitexsoftware">
+    <name>VitexSoftware</name>
+  </developer>
+  <content_rating type="oars-1.1"/>
+</component>
