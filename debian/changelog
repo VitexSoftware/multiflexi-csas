@@ -1,8 +1,13 @@
-multiflexi-csas (0.1.1) UNRELEASED; urgency=medium
+multiflexi-csas (0.1.2) unstable; urgency=medium
 
+  [ vitex ]
   * update for current multiflexi-core
 
- -- vitex <info@vitexsoftware.cz>  Tue, 31 Mar 2026 20:30:48 +0200
+  [ Vítězslav Dvořák ]
+  * Packaging: Jenkinsfile CI improvements, fix postinst with proper
+    case/esac, AppStream metainfo extends/provides/releases
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Mon, 18 May 2026 17:17:32 +0200
 
 multiflexi-csas (0.1.0) unstable; urgency=low
 

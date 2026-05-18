@@ -1,9 +1,22 @@
 #!/bin/sh
-# If no user provided script is activated in this file, you should remove this file.
+# postinst script for multiflexi-csas
 set -e
 
-composer-global-update deb/multiflexi-core
-multiflexi crprototype sync
+case "$1" in
+    configure)
+        if [ -x /usr/bin/multiflexi-cli ]; then
+            multiflexi-cli credential-prototype:sync
+        fi
+        ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+        ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+        ;;
+esac
 
 #DEBHELPER#
 

@@ -11,8 +11,15 @@
       Provides a credential prototype plugin for MultiFlexi that manages ČSAS (Česká Spořitelna / Erste) API credentials including token management, API keys, and sandbox mode configuration. Integrates with csas-authorize for automatic access token refresh.
     </p>
   </description>
+  <extends>cz.vitexsoftware.multiflexi</extends>
   <url type="homepage">https://github.com/VitexSoftware/multiflexi-csas</url>
   <url type="bugtracker">https://github.com/VitexSoftware/multiflexi-csas/issues</url>
+  <provides>
+    <library>MultiFlexi/CredentialProtoType/Csas.php</library>
+  </provides>
+  <releases>
+    <release version="0.1.2" date="2025-01-01" type="stable" />
+  </releases>
   <developer id="cz.vitexsoftware">
     <name>VitexSoftware</name>
   </developer>
