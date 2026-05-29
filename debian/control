@@ -21,3 +21,10 @@ Description: MultiFlexi credential prototype for Česká Spořitelna API
  management, API keys, and sandbox mode configuration.
  .
  Integrates with csas-authorize for automatic access token refresh.
+
+Package: multiflexi-csas-ui
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, multiflexi-csas (= ${binary:Version}), multiflexi-web
+Description: MultiFlexi CSAS UI components
+ CSAS credential icon for MultiFlexi web interface.
