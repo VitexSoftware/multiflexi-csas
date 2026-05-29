@@ -96,7 +96,7 @@ class Csas extends \MultiFlexi\CredentialProtoType implements \MultiFlexi\creden
     }
 
     #[\Override]
-    public static function uuid(): string
+    public function uuid(): string
     {
         return '1eef27c8-b9d1-4582-911d-160bf0be9d95';
     }
