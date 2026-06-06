@@ -25,6 +25,6 @@ Description: MultiFlexi credential prototype for Česká Spořitelna API
 Package: multiflexi-csas-ui
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, multiflexi-csas (= ${binary:Version}), multiflexi-web
+Depends: ${misc:Depends}, multiflexi-csas (= ${binary:Version}), multiflexi-web|multiflexi-web5
 Description: MultiFlexi CSAS UI components
  CSAS credential icon for MultiFlexi web interface.
