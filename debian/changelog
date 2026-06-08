@@ -1,3 +1,12 @@
+multiflexi-csas (0.1.3) unstable; urgency=medium
+
+  * prerm: drop legacy composer-global-update call and use the current
+    'multiflexi credential-prototype:sync' command name (old
+    'crprototype' command was removed from multiflexi-cli), fixing
+    failed apt upgrades.
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Mon, 08 Jun 2026 15:25:38 +0200
+
 multiflexi-csas (0.1.2) unstable; urgency=medium
 
   [ vitex ]
