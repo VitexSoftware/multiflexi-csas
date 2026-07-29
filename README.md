@@ -1,4 +1,5 @@
 # MultiFlexi CSAS Credential Prototype
+![Packaging: deb](https://img.shields.io/badge/packaging-.deb-red?logo=debian&logoColor=white)
 
 Credential prototype plugin for [MultiFlexi](https://multiflexi.eu/) providing integration with **Česká Spořitelna a.s. (ČSAS / Erste)** API services.
 
