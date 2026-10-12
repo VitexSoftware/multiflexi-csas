@@ -5,7 +5,6 @@
 String[] distributions = [
 			'debian:bookworm',
 			'debian:trixie',
-			'debian:forky',
 //			'ubuntu:jammy',    // postinst PHP Fatal error: Symfony/Polyfill/Php80/autoload.php not found (path incompatibility)
 			'ubuntu:noble',
 ]
